@@ -25,6 +25,7 @@ to the require section of your `composer.json` file.
 Supported websites
 -----
 [NigerianBulkSMS](http://nigerianbulksms.com/)
+
 [BetaSMS](http://betasms.com/)
 
 
