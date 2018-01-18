@@ -1,6 +1,6 @@
-A simple class to handle the bulk sms api for Nigerian bulk sms hhtp api connection
+A Yii2 extension to handle sending messages for most Nigerian bulksms http api connections
 ===================================================================================
-A simple class to handle the bulk sms api for Nigerian bulk sms hhtp api connection
+A Yii2 extension to handle sending messages for most Nigerian bulksms http api connections
 
 Installation
 ------------
@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist netesy/yii2-bulksms "*"
+php composer require netesy/yii2-bulksms
 ```
 
 or add
@@ -20,6 +20,12 @@ or add
 ```
 
 to the require section of your `composer.json` file.
+
+
+Supported websites
+-----
+[NigerianBulkSMS](http://nigerianbulksms.com/)
+[BetaSMS](http://betasms.com/)
 
 
 Usage
@@ -38,8 +44,8 @@ first add to config.php
           'class' => 'netesy\bulksms\BulkSms',
           'username' => 'xxxxxxxx',
           'password' => 'xxxxxxxx',
-          'sender' => 'sender',
-          'url' => 'http://portal.nigerianbulksms.com/api/',
+          'sender' => 'sender number',
+          'url' => 'the api address',
           ],
 ]
 ?>
