@@ -1,0 +1,21 @@
+{
+    "name": "netesy/yii2-bulksms",
+    "description": "A simple class to handle the bulk sms api for Nigerian bulk sms hhtp api connection",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," sms"," api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Netesy Emmanuel",
+            "email": "netesy1@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "netesy\\bulksms\\": ""
+        }
+    }
+}
