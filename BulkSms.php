@@ -15,7 +15,7 @@ class BulkSms extends \yii\base\Component
 
     public function getBalance()
     {
-        $jsonResponse = $this->curl_call($this->url.'?username='. $this->username ..'&password='. $this->password . "&action=balance");
+        $jsonResponse = $this->curl_call($this->url.'?username='. $this->username .'&password='. $this->password . "&action=balance");
         return $jsonResponse;
     }
 
@@ -29,10 +29,10 @@ class BulkSms extends \yii\base\Component
     */
     public function sendMessage(array $option){
         $number = $option['number'];
-        $message =  $option['message']);
+        $message =  $option['message'];
         unset($option['number']);
         unset($option['message']);
-        $jsonResponse = $this->curl_call($this->url.'?username='. $this->username ..'&password='. $this->password
+        $jsonResponse = $this->curl_call($this->url.'?username='. $this->username .'&password='. $this->password
                 .'&message='.$message .'&sender='.$this->sender.'&mobiles='.$this->sender, $option);
         return json_decode($jsonResponse);
     }
@@ -47,10 +47,10 @@ class BulkSms extends \yii\base\Component
     */
     public function sendCall(array $option){
         $number = $option['number'];
-        $message =  $option['message']);
+        $message =  $option['message'];
         unset($option['number']);
         unset($option['message']);
-        $jsonResponse = $this->curl_call($this->url.'?username='. $this->username ..'&password='. $this->password
+        $jsonResponse = $this->curl_call($this->url.'?username='. $this->username .'&password='. $this->password
                 .'&message='.$message .'&sender='.$this->sender.'&mobiles='.$this->sender.'&type=call', $option);
         return json_decode($jsonResponse);
     }
