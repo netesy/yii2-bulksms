@@ -76,7 +76,7 @@ class BulkSms extends \yii\base\Component
         }
         $r = curl_exec($ch);
         if($r == false){
-            $text = 'eroror '.curl_error($ch);
+            $text = 'error '.curl_error($ch);
             $myfile = fopen("bulksms.log", "w") or die("Unable to open file!");
             fwrite($myfile, $text);
             fclose($myfile);
