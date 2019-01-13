@@ -1,3 +1,7 @@
+[![Netesy](https://img.shields.io/scrutinizer/g/filp/whoops.svg)](https://www.github.com/netesy)
+[![Netesy](https://img.shields.io/github/languages/code-size/badges/shields.svg)](https://www.github.com/netesy)
+[![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](https://www.yiiframework.com/)
+
 A Yii2 extension to handle sending messages for most Nigerian bulksms http api connections
 ===================================================================================
 A Yii2 extension to handle sending messages for most Nigerian bulksms http api connections
