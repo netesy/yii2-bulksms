@@ -1,3 +1,6 @@
+[![Latest Stable Version](https://poser.pugx.org/netesy/yii2-bulksms/v/stable)](https://packagist.org/packages/netesy/yii2-bulksms)
+[![Total Downloads](https://poser.pugx.org/netesy/yii2-bulksms/downloads)](https://packagist.org/packages/netesy/yii2-bulksms)
+[![License](https://poser.pugx.org/netesy/yii2-bulksms/license)](https://packagist.org/packages/netesy/yii2-bulksms)
 [![Netesy](https://img.shields.io/scrutinizer/g/filp/whoops.svg)](https://www.github.com/netesy)
 [![Netesy](https://img.shields.io/github/languages/code-size/badges/shields.svg)](https://www.github.com/netesy)
 [![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](https://www.yiiframework.com/)
